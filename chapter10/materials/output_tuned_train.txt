@@ -1,0 +1,48 @@
+2022-09-26 10:36:41.932249
+Loading Dataset ...
+Done
+Train Size:	 torch.Size([439136, 152]) torch.Size([439136, 152])
+Dev Size:	 torch.Size([1165, 151]) torch.Size([1165, 151])
+Test Size:	 torch.Size([1158, 144]) torch.Size([1158, 144])
+batch size: 128
+Using cuda device
+2022-09-26 10:37:08.882932: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-09-26 10:37:10.558995: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-26 10:37:11.123077: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-09-26 10:37:11.123138: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-09-26 10:37:11.361161: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-09-26 10:37:22.027955: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-09-26 10:37:22.029758: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-09-26 10:37:22.029784: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Epoch: 1 Train loss: 4.6543, Valid loss: 3.9090, Valid BLEU: 4.1515
+Epoch: 2 Train loss: 3.5156, Valid loss: 3.2552, Valid BLEU: 8.0020
+Epoch: 3 Train loss: 3.0295, Valid loss: 2.9276, Valid BLEU: 9.9801
+Epoch: 4 Train loss: 2.7370, Valid loss: 2.7223, Valid BLEU: 12.0384
+Epoch: 5 Train loss: 2.5365, Valid loss: 2.5785, Valid BLEU: 12.7938
+Epoch: 6 Train loss: 2.3918, Valid loss: 2.4901, Valid BLEU: 13.8248
+Epoch: 7 Train loss: 2.2836, Valid loss: 2.4304, Valid BLEU: 14.2534
+Epoch: 8 Train loss: 2.1977, Valid loss: 2.3656, Valid BLEU: 14.6173
+Epoch: 9 Train loss: 2.1271, Valid loss: 2.3258, Valid BLEU: 14.6491
+Epoch: 10 Train loss: 2.0683, Valid loss: 2.2892, Valid BLEU: 14.7897
+Epoch: 11 Train loss: 2.0181, Valid loss: 2.2711, Valid BLEU: 15.3111
+Epoch: 12 Train loss: 1.9738, Valid loss: 2.2492, Valid BLEU: 15.7446
+Epoch: 13 Train loss: 1.9349, Valid loss: 2.2431, Valid BLEU: 15.9739
+Epoch: 14 Train loss: 1.9001, Valid loss: 2.2217, Valid BLEU: 15.7588
+Epoch: 15 Train loss: 1.8692, Valid loss: 2.2112, Valid BLEU: 16.0177
+Epoch: 16 Train loss: 1.8406, Valid loss: 2.2062, Valid BLEU: 16.1825
+Epoch: 17 Train loss: 1.8149, Valid loss: 2.2179, Valid BLEU: 16.3568
+Epoch: 18 Train loss: 1.7915, Valid loss: 2.1895, Valid BLEU: 16.0895
+Epoch: 19 Train loss: 1.7698, Valid loss: 2.1841, Valid BLEU: 16.0657
+Epoch: 20 Train loss: 1.7494, Valid loss: 2.1955, Valid BLEU: 15.9757
+Epoch: 21 Train loss: 1.7310, Valid loss: 2.1862, Valid BLEU: 16.4966
+Epoch: 22 Train loss: 1.7140, Valid loss: 2.1802, Valid BLEU: 16.2597
+Epoch: 23 Train loss: 1.6970, Valid loss: 2.1753, Valid BLEU: 16.0570
+Epoch: 24 Train loss: 1.6815, Valid loss: 2.1817, Valid BLEU: 16.2085
+Epoch: 25 Train loss: 1.6668, Valid loss: 2.1757, Valid BLEU: 16.2271
+Epoch: 26 Train loss: 1.6528, Valid loss: 2.1850, Valid BLEU: 16.6971
+Epoch: 27 Train loss: 1.6404, Valid loss: 2.1797, Valid BLEU: 16.3676
+Epoch: 28 Train loss: 1.6287, Valid loss: 2.1716, Valid BLEU: 16.6010
+Epoch: 29 Train loss: 1.6169, Valid loss: 2.1716, Valid BLEU: 16.6908
+Epoch: 30 Train loss: 1.6058, Valid loss: 2.1816, Valid BLEU: 16.3916
+2022-09-26 19:29:19.217415

@@ -1,0 +1,34 @@
+Loading Dataset ...
+Done
+batch size: 128
+Using cuda device
+Epoch: 1 Train loss: 4.7361, Valid loss: 3.9591, Epoch time: 960.6180
+Epoch: 2 Train loss: 3.5613, Valid loss: 3.2668, Epoch time: 950.6192
+Epoch: 3 Train loss: 3.0615, Valid loss: 2.9125, Epoch time: 950.4522
+Epoch: 4 Train loss: 2.7645, Valid loss: 2.7154, Epoch time: 951.3084
+Epoch: 5 Train loss: 2.5626, Valid loss: 2.5803, Epoch time: 950.5649
+Epoch: 6 Train loss: 2.4153, Valid loss: 2.4745, Epoch time: 952.1551
+Epoch: 7 Train loss: 2.3048, Valid loss: 2.4103, Epoch time: 952.0664
+Epoch: 8 Train loss: 2.2173, Valid loss: 2.3384, Epoch time: 951.6630
+Epoch: 9 Train loss: 2.1460, Valid loss: 2.3062, Epoch time: 951.3762
+Epoch: 10 Train loss: 2.0858, Valid loss: 2.2683, Epoch time: 950.3646
+Epoch: 11 Train loss: 2.0345, Valid loss: 2.2532, Epoch time: 950.1301
+Epoch: 12 Train loss: 1.9898, Valid loss: 2.2238, Epoch time: 952.3685
+Epoch: 13 Train loss: 1.9513, Valid loss: 2.1936, Epoch time: 952.0534
+Epoch: 14 Train loss: 1.9164, Valid loss: 2.1934, Epoch time: 952.3603
+Epoch: 15 Train loss: 1.8852, Valid loss: 2.1823, Epoch time: 952.3733
+Epoch: 16 Train loss: 1.8573, Valid loss: 2.1598, Epoch time: 952.8700
+Epoch: 17 Train loss: 1.8320, Valid loss: 2.1635, Epoch time: 952.6085
+Epoch: 18 Train loss: 1.8081, Valid loss: 2.1637, Epoch time: 951.9953
+Epoch: 19 Train loss: 1.7865, Valid loss: 2.1385, Epoch time: 952.4122
+Epoch: 20 Train loss: 1.7667, Valid loss: 2.1455, Epoch time: 952.3246
+Epoch: 21 Train loss: 1.7480, Valid loss: 2.1467, Epoch time: 952.8594
+Epoch: 22 Train loss: 1.7306, Valid loss: 2.1369, Epoch time: 950.7327
+Epoch: 23 Train loss: 1.7147, Valid loss: 2.1344, Epoch time: 951.2268
+Epoch: 24 Train loss: 1.6997, Valid loss: 2.1372, Epoch time: 951.7007
+Epoch: 25 Train loss: 1.6853, Valid loss: 2.1268, Epoch time: 952.5365
+Epoch: 26 Train loss: 1.6721, Valid loss: 2.1253, Epoch time: 953.2210
+Epoch: 27 Train loss: 1.6594, Valid loss: 2.1316, Epoch time: 950.6873
+Epoch: 28 Train loss: 1.6478, Valid loss: 2.1149, Epoch time: 951.9146
+Epoch: 29 Train loss: 1.6364, Valid loss: 2.1197, Epoch time: 952.2977
+Epoch: 30 Train loss: 1.6256, Valid loss: 2.1264, Epoch time: 950.5998

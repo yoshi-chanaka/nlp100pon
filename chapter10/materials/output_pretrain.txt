@@ -1,0 +1,39 @@
+2022-09-14 07:14:24.813791
+Loading Dataset ...
+Done
+Train Size:	 torch.Size([298889, 152]) torch.Size([298889, 152])
+Dev Size:	 torch.Size([1903, 151]) torch.Size([1903, 151])
+Test Size:	 torch.Size([1972, 152]) torch.Size([1972, 152])
+batch size: 128
+Using cuda device
+Epoch: 1 Train loss: 4.4125, Valid loss: 4.0261, Valid BLEU: 3.3919
+Epoch: 2 Train loss: 2.9622, Valid loss: 3.3228, Valid BLEU: 7.0681
+Epoch: 3 Train loss: 2.3410, Valid loss: 2.8918, Valid BLEU: 9.7884
+Epoch: 4 Train loss: 2.0090, Valid loss: 2.5786, Valid BLEU: 12.1715
+Epoch: 5 Train loss: 1.7969, Valid loss: 2.3804, Valid BLEU: 13.4258
+Epoch: 6 Train loss: 1.6489, Valid loss: 2.2415, Valid BLEU: 14.7989
+Epoch: 7 Train loss: 1.5420, Valid loss: 2.1456, Valid BLEU: 16.4064
+Epoch: 8 Train loss: 1.4598, Valid loss: 2.0694, Valid BLEU: 16.7109
+Epoch: 9 Train loss: 1.3928, Valid loss: 2.0124, Valid BLEU: 18.1418
+Epoch: 10 Train loss: 1.3372, Valid loss: 1.9554, Valid BLEU: 17.8725
+Epoch: 11 Train loss: 1.2897, Valid loss: 1.9285, Valid BLEU: 18.4996
+Epoch: 12 Train loss: 1.2482, Valid loss: 1.8883, Valid BLEU: 20.0751
+Epoch: 13 Train loss: 1.2130, Valid loss: 1.8670, Valid BLEU: 20.5452
+Epoch: 14 Train loss: 1.1807, Valid loss: 1.8506, Valid BLEU: 21.0797
+Epoch: 15 Train loss: 1.1516, Valid loss: 1.8314, Valid BLEU: 21.2788
+Epoch: 16 Train loss: 1.1263, Valid loss: 1.8084, Valid BLEU: 21.7742
+Epoch: 17 Train loss: 1.1018, Valid loss: 1.7965, Valid BLEU: 21.2329
+Epoch: 18 Train loss: 1.0806, Valid loss: 1.7844, Valid BLEU: 22.2343
+Epoch: 19 Train loss: 1.0603, Valid loss: 1.7744, Valid BLEU: 22.2220
+Epoch: 20 Train loss: 1.0410, Valid loss: 1.7671, Valid BLEU: 22.4345
+Epoch: 21 Train loss: 1.0238, Valid loss: 1.7511, Valid BLEU: 22.3312
+Epoch: 22 Train loss: 1.0071, Valid loss: 1.7484, Valid BLEU: 23.1294
+Epoch: 23 Train loss: 0.9923, Valid loss: 1.7405, Valid BLEU: 23.3776
+Epoch: 24 Train loss: 0.9766, Valid loss: 1.7456, Valid BLEU: 23.4542
+Epoch: 25 Train loss: 0.9636, Valid loss: 1.7346, Valid BLEU: 22.8688
+Epoch: 26 Train loss: 0.9505, Valid loss: 1.7328, Valid BLEU: 23.5609
+Epoch: 27 Train loss: 0.9386, Valid loss: 1.7262, Valid BLEU: 24.1620
+Epoch: 28 Train loss: 0.9269, Valid loss: 1.7265, Valid BLEU: 23.8278
+Epoch: 29 Train loss: 0.9157, Valid loss: 1.7251, Valid BLEU: 24.9939
+Epoch: 30 Train loss: 0.9055, Valid loss: 1.7244, Valid BLEU: 23.9625
+2022-09-14 15:32:30.382613

@@ -1,0 +1,33 @@
+2022-09-26 20:18:49.068646
+Loading Dataset ...
+Done
+Train Size:	 torch.Size([439136, 152]) torch.Size([439136, 152])
+Dev Size:	 torch.Size([1165, 151]) torch.Size([1165, 151])
+Test Size:	 torch.Size([1158, 144]) torch.Size([1158, 144])
+batch size: 128
+Using cuda device
+2022-09-26 20:19:15.145381: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-09-26 20:19:15.288071: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2022-09-26 20:19:15.292945: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-09-26 20:19:15.292973: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-09-26 20:19:15.318889: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2022-09-26 20:19:16.632310: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2022-09-26 20:19:16.632418: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2022-09-26 20:19:16.632434: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Epoch: 1 Train loss: 3.2513, Valid loss: 2.5791, Valid BLEU: 12.0044
+Epoch: 2 Train loss: 2.5217, Valid loss: 2.3699, Valid BLEU: 13.4671
+Epoch: 3 Train loss: 2.3001, Valid loss: 2.2657, Valid BLEU: 14.7482
+Epoch: 4 Train loss: 2.1711, Valid loss: 2.2164, Valid BLEU: 14.3398
+Epoch: 5 Train loss: 2.0815, Valid loss: 2.1818, Valid BLEU: 15.6095
+Epoch: 6 Train loss: 2.0125, Valid loss: 2.1323, Valid BLEU: 15.3254
+Epoch: 7 Train loss: 1.9580, Valid loss: 2.1190, Valid BLEU: 15.8510
+Epoch: 8 Train loss: 1.9121, Valid loss: 2.1112, Valid BLEU: 15.9999
+Epoch: 9 Train loss: 1.8731, Valid loss: 2.0975, Valid BLEU: 15.9022
+Epoch: 10 Train loss: 1.8389, Valid loss: 2.0848, Valid BLEU: 16.5138
+Epoch: 11 Train loss: 1.8094, Valid loss: 2.0868, Valid BLEU: 16.2041
+Epoch: 12 Train loss: 1.7823, Valid loss: 2.0809, Valid BLEU: 15.7292
+Epoch: 13 Train loss: 1.7582, Valid loss: 2.0744, Valid BLEU: 15.8841
+Epoch: 14 Train loss: 1.7366, Valid loss: 2.0740, Valid BLEU: 16.4689
+Epoch: 15 Train loss: 1.7166, Valid loss: 2.0697, Valid BLEU: 16.4344
+2022-09-27 00:35:15.674606

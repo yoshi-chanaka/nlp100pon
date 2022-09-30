@@ -1,0 +1,11 @@
+Using cuda device
+Loading Dataset ...
+Done
+Loading Model ... : Using cuda device
+Done
+beam_with: 1	BLEU = 18.76 47.2/23.1/13.4/8.5 (BP = 1.000 ratio = 1.139 hyp_len = 30250 ref_len = 26563)
+beam_with: 2	BLEU = 20.25 49.3/24.8/14.6/9.4 (BP = 1.000 ratio = 1.098 hyp_len = 29172 ref_len = 26563)
+beam_with: 4	BLEU = 21.23 50.9/25.9/15.4/10.0 (BP = 1.000 ratio = 1.052 hyp_len = 27935 ref_len = 26563)
+beam_with: 8	BLEU = 21.12 51.5/25.9/15.3/9.8 (BP = 1.000 ratio = 1.014 hyp_len = 26929 ref_len = 26563)
+beam_with: 16	BLEU = 20.26 52.2/26.0/15.1/9.5 (BP = 0.964 ratio = 0.965 hyp_len = 25631 ref_len = 26563)
+beam_with: 32	BLEU = 18.35 52.8/25.8/14.7/9.0 (BP = 0.892 ratio = 0.897 hyp_len = 23827 ref_len = 26563)
